@@ -1,0 +1,108 @@
+body {}
+
+/* NAV */
+
+nav span {
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.primary-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 50px;
+    font-size: 1.8em;
+    background-color: rgb(156, 156, 156);
+}
+
+.primary-nav * {
+    background-color: rgb(189, 189, 189);
+}
+
+.secondary-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 40px;
+    font-size: 1.4em;
+    background-color: rgb(245, 245, 245);
+}
+
+.secondary-nav * {
+    background-color: rgb(185, 185, 185);
+}
+
+/* HEADLINE */
+
+.headline {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    padding-top: 3em;
+}
+
+.headline .left {
+    flex: 3;
+    padding-right: 12em;
+}
+
+.headline .right {
+    flex: 1;
+}
+
+.main-post .top {
+    display: flex;
+    background-color: rgb(175, 175, 175);
+    padding: 20px;
+}
+
+.main-post .picture {
+    transform: rotate(-12deg);
+
+    width: 120px;
+    background-color: rgb(126, 126, 126);
+    border-radius: 10px;
+    margin-right: 1em;
+}
+
+.main-post .title {
+    font-size: 2.5em;
+    font-weight: bold;
+    padding-top: 12px;
+}
+
+.main-post .content {
+    padding: 1.2em;
+    background-color: rgb(231, 231, 231);
+    font-size: 1.2em;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.right .image{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 100%;
+}
+
+.right #newsletter {
+    background-color: rgb(34, 34, 34);
+    font-size: 2em;
+}
+
+.right #tips {
+    font-size: 2em;
+}
+
+.right div {
+    padding: 5px;
+    border-radius: 4px;
+}
+
