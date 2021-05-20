@@ -41,23 +41,22 @@ nav span {
 }
 
 .headline .left {
-    flex: 3;
-    padding-right: 12em;
+    flex: 4;
 }
 
-.headline .right {
-    flex: 1;
+.headline .wrapper {
+    flex: 2;
 }
 
 .main-post .top {
     display: flex;
-    background-color: rgb(175, 175, 175);
     padding: 20px;
 }
 
 .main-post .picture {
     transform: rotate(-12deg);
-    width: 120px;
+    min-width: 120px;
+    height: 120px;
     background-color: rgb(126, 126, 126);
     border-radius: 10px;
     margin-right: 1em;
@@ -66,13 +65,18 @@ nav span {
 .main-post .title {
     font-size: 2.5em;
     font-weight: bold;
-    padding-top: 12px;
+    padding: 12px;
+    background-color: rgb(43, 43, 43);
 }
 
 .main-post .content {
     padding: 1.2em;
     background-color: rgb(231, 231, 231);
     font-size: 1.2em;
+}
+
+.headline .wrapper {
+    padding-top: 70px;
 }
 
 .right {
@@ -82,11 +86,16 @@ nav span {
     align-items: center;
     background-color: rgb(70, 70, 70);
     color: white;
-    padding: 0 2em;
+    padding: 0 1.6em;
+    border-radius: 12px;
 }
 
 .right * {
-    margin-bottom: 1em;
+    margin-bottom: 1.4em;
+}
+
+.right *:nth-child(2) {
+    margin-top: 4em;
 }
 
 .right .image {
@@ -127,4 +136,8 @@ nav span {
 .right div {
     padding: 5px;
     border-radius: 4px;
+}
+
+.spacer {
+    flex: .5;
 }
