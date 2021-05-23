@@ -67,12 +67,39 @@ nav span {
     font-weight: bold;
     padding: 12px;
     background-color: rgb(43, 43, 43);
+    color: white;
 }
 
 .main-post .content {
     padding: 1.2em;
     background-color: rgb(231, 231, 231);
     font-size: 1.2em;
+}
+
+.secondary-posts {
+    padding-top: 2em;
+}
+
+.secondary-posts .top {
+    display: flex;
+    padding: 35px;
+}
+
+.secondary-posts .picture {
+    transform: rotate(-12deg);
+    min-width: 80px;
+    height: 80px;
+    background-color: rgb(151, 151, 151);
+    border-radius: 10px;
+    margin-right: 1em;
+}
+
+.secondary-posts .title {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 12px;
+    background-color: rgb(82, 82, 82);
+    color: white;
 }
 
 .headline .wrapper {
